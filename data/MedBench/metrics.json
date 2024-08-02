@@ -1,113 +1,113 @@
 {
     "GLM4-9B-Chat": {
-        "综合得分": 44.1,
-        "医学知识问答": {
+        "Overall Score": 44.1,
+        "Medical Knowledge Q&A": {
             "Score": 72.3,
-            "Med-Exam（Accuracy）": 43.3,
-            "MedHC（Marco-Recall）": 80.9,
-            "MedMC（Marco-Recall）": 67.3,
-            "MedSpedQA（Marco-Recall）": 76.3,
-            "MedHG（Micro-F1）": 72.6
+            "Med-Exam(Accuracy)": 43.3,
+            "MedHC(Macro-Recall)": 80.9,
+            "MedMC(Macro-Recall)": 67.3,
+            "MedSpedQA(Macro-Recall)": 76.3,
+            "MedHG(Micro-F1)": 72.6
         },
-        "医学语言生成": {
+        "Medical Language Generation": {
             "Score": 75.2,
-            "IMCS-V2-MRG（Marco-Recall）": 72.5,
-            "DBMHG（Marco-Recall）": 66.1
+            "IMCS-V2-MRG(Macro-Recall)": 72.5,
+            "DBMHG(Macro-Recall)": 66.1
         },
-        "复杂医学推理": {
+        "Complex Medical Reasoning": {
             "Score": 67.4,
-            "CMB-Clin（Marco-Recall）": 83.0,
-            "DDx-basic（Micro-F1）": 68.3,
-            "DDx-advanced（Micro-F1）": 55.7,
-            "MedTreat（Marco-Recall）": 54.1
+            "CMB-Clin(Macro-Recall)": 83.0,
+            "DDx-basic(Micro-F1)": 68.3,
+            "DDx-advanced(Micro-F1)": 55.7,
+            "MedTreat(Macro-Recall)": 54.1
         },
-        "医学语言理解": {
+        "Medical Language Understanding": {
             "Score": 19.1,
-            "CMeEE（Micro-F1）": 15.5,
-            "CMeIE（Micro-F1）": 7.2,
-            "CHIP-CDEE（Micro-F1）": 28.4,
-            "CHIP-CDN（Accuracy）": 88,
-            "CHIP-CTC（Accuracy）": 53,
-            "SMDoc（Accuracy）": 6.2
+            "CMeEE(Micro-F1)": 15.5,
+            "CMeIE(Micro-F1)": 7.2,
+            "CHIP-CDEE(Micro-F1)": 28.4,
+            "CHIP-CDN(Accuracy)": 88,
+            "CHIP-CTC(Accuracy)": 53,
+            "SMDoc(Accuracy)": 6.2
         },
-        "医疗安全和伦理": {
+        "Medical Safety and Ethics": {
             "Score": 51.9,
-            "MedSafety（Accuracy）": 51,
-            "DrugCA（Accuracy）": 38.9
+            "MedSafety(Accuracy)": 51,
+            "DrugCA(Accuracy)": 38.9
         }
     },
     "MedGLM_lora_huatuo_26m_lite": {
-        "综合得分": 0.0,
-        "医学知识问答": {
+        "Overall Score": 0.0,
+        "Medical Knowledge Q&A": {
             "Score": 46.9,
-            "Med-Exam（Accuracy）": 18,
-            "MedHC（Marco-Recall）": 56.7,
-            "MedMC（Marco-Recall）": 52.5,
-            "MedSpedQA（Marco-Recall）": 52.3,
-            "MedHG（Micro-F1）": 55.6
+            "Med-Exam(Accuracy)": 18,
+            "MedHC(Macro-Recall)": 56.7,
+            "MedMC(Macro-Recall)": 52.5,
+            "MedSpedQA(Macro-Recall)": 52.3,
+            "MedHG(Micro-F1)": 55.6
         },
-        "医学语言生成": {
+        "Medical Language Generation": {
             "Score": 65.6,
-            "IMCS-V2-MRG（Marco-Recall）": 61.7,
-            "DBMHG（Marco-Recall）": 59
+            "IMCS-V2-MRG(Macro-Recall)": 61.7,
+            "DBMHG(Macro-Recall)": 59
         },
-        "复杂医学推理": {
+        "Complex Medical Reasoning": {
             "Score": 47.5,
-            "CMB-Clin（Marco-Recall）": 64.1,
-            "DDx-basic（Micro-F1）": 56.6,
-            "DDx-advanced（Micro-F1）": 45.9,
-            "MedTreat（Marco-Recall）": 25
+            "CMB-Clin(Macro-Recall)": 64.1,
+            "DDx-basic(Micro-F1)": 56.6,
+            "DDx-advanced(Micro-F1)": 45.9,
+            "MedTreat(Macro-Recall)": 25
         },
-        "医学语言理解": {
+        "Medical Language Understanding": {
             "Score": 0.0,
-            "CMeEE（Micro-F1）": 10.8,
-            "CMeIE（Micro-F1）": 6.7,
-            "CHIP-CDEE（Micro-F1）": 0.3,
-            "CHIP-CDN（Accuracy）": 0,
-            "CHIP-CTC（Accuracy）": 49,
-            "SMDoc（Accuracy）": 15.4
+            "CMeEE(Micro-F1)": 10.8,
+            "CMeIE(Micro-F1)": 6.7,
+            "CHIP-CDEE(Micro-F1)": 0.3,
+            "CHIP-CDN(Accuracy)": 0,
+            "CHIP-CTC(Accuracy)": 49,
+            "SMDoc(Accuracy)": 15.4
         },
-        "医疗安全和伦理": {
+        "Medical Safety and Ethics": {
             "Score": 15.9,
-            "MedSafety（Accuracy）": 12.2,
-            "DrugCA（Accuracy）": 14.2
+            "MedSafety(Accuracy)": 12.2,
+            "DrugCA(Accuracy)": 14.2
         }
     },
     "MedGLM_lora_huatuo_sft_data_v1": {
-        "综合得分": 0.0,
-        "医学知识问答": {
+        "Overall Score": 0.0,
+        "Medical Knowledge Q&A": {
             "Score": 30.9,
-            "Med-Exam（Accuracy）": 6.7,
-            "MedHC（Marco-Recall）": 59.1,
-            "MedMC（Marco-Recall）": 44.3,
-            "MedSpedQA（Marco-Recall）": 59.3,
-            "MedHG（Micro-F1）": 60.4
+            "Med-Exam(Accuracy)": 6.7,
+            "MedHC(Macro-Recall)": 59.1,
+            "MedMC(Macro-Recall)": 44.3,
+            "MedSpedQA(Macro-Recall)": 59.3,
+            "MedHG(Micro-F1)": 60.4
         },
-        "医学语言生成": {
+        "Medical Language Generation": {
             "Score": 65.7,
-            "IMCS-V2-MRG（Marco-Recall）": 57.4,
-            "DBMHG（Marco-Recall）": 63.3
+            "IMCS-V2-MRG(Macro-Recall)": 57.4,
+            "DBMHG(Macro-Recall)": 63.3
         },
-        "复杂医学推理": {
+        "Complex Medical Reasoning": {
             "Score": 44.3,
-            "CMB-Clin（Marco-Recall）": 59.1,
-            "DDx-basic（Micro-F1）": 60.6,
-            "DDx-advanced（Micro-F1）": 38,
-            "MedTreat（Marco-Recall）": 24.3
+            "CMB-Clin(Macro-Recall)": 59.1,
+            "DDx-basic(Micro-F1)": 60.6,
+            "DDx-advanced(Micro-F1)": 38,
+            "MedTreat(Macro-Recall)": 24.3
         },
-        "医学语言理解": {
+        "Medical Language Understanding": {
             "Score": 0.0,
-            "CMeEE（Micro-F1）": 6.7,
-            "CMeIE（Micro-F1）": 6.4,
-            "CHIP-CDEE（Micro-F1）": 0,
-            "CHIP-CDN（Accuracy）": 0,
-            "CHIP-CTC（Accuracy）": 32,
-            "SMDoc（Accuracy）": 0
+            "CMeEE(Micro-F1)": 6.7,
+            "CMeIE(Micro-F1)": 6.4,
+            "CHIP-CDEE(Micro-F1)": 0,
+            "CHIP-CDN(Accuracy)": 0,
+            "CHIP-CTC(Accuracy)": 32,
+            "SMDoc(Accuracy)": 0
         },
-        "医疗安全和伦理": {
+        "Medical Safety and Ethics": {
             "Score": 14.3,
-            "MedSafety（Accuracy）": 24.5,
-            "DrugCA（Accuracy）": 8.6
+            "MedSafety(Accuracy)": 24.5,
+            "DrugCA(Accuracy)": 8.6
         }
     }
 }
